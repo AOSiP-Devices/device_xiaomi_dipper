@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c1b213f6_c394b831",
+        "filename": "device.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000167
+      },
+      "writtenOn": "2018-11-04T21:30:45Z",
+      "side": 1,
+      "message": "Oops this exists already in sdm845-common tree",
+      "revId": "4d56b5e325f9f100cb8cb2fcbee074286501051f",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": true
+    }
+  ]
+}
