@@ -340,4 +340,7 @@
 
     <!-- Disable AOD by default -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- Is device Dual LTE capable -->
+    <bool name="config_dual_LTE_capability">true</bool>
 </resources>
