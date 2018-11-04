@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84c172a7_1caccd41",
+        "filename": "aosip.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2018-11-04T21:17:53Z",
+      "side": 1,
+      "message": "remove argraur and dont add an organization name since it\u0027ll default fetch from devices",
+      "revId": "861c1443dd2acf2932f4df2edb146b245991b4df",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ececabc_b7f6e008",
+        "filename": "aosip.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2018-11-04T21:17:53Z",
+      "side": 1,
+      "message": "branch unnecessary",
+      "revId": "861c1443dd2acf2932f4df2edb146b245991b4df",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "32c93a9e_bf1db0f5",
+        "filename": "aosip.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2018-11-04T21:17:53Z",
+      "side": 1,
+      "message": "import repo to org and track that instead",
+      "revId": "861c1443dd2acf2932f4df2edb146b245991b4df",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    }
+  ]
+}
