@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fe386e76_0ca96ec4",
+        "filename": "aosip.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2018-11-04T21:12:25Z",
+      "side": 1,
+      "message": "move to common repo",
+      "revId": "f591e143571ad7a5a29c2aece45ad971c0353c4b",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "032a01dc_b3ad4729",
+        "filename": "aosip.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2018-11-04T21:12:25Z",
+      "side": 1,
+      "message": "move to common",
+      "revId": "f591e143571ad7a5a29c2aece45ad971c0353c4b",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd168afe_8a28f566",
+        "filename": "aosip.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2018-11-04T21:12:25Z",
+      "side": 1,
+      "message": "move to common",
+      "revId": "f591e143571ad7a5a29c2aece45ad971c0353c4b",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    }
+  ]
+}
