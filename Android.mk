@@ -13,8 +13,10 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := device/xiaomi/dipper
 
-ifeq ($(TARGET_DEVICE),dipper)
+ifeq ($(PRODUCT_DEVICE),dipper)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
+
+include device/xiaomi/dipper/overlay/packages/apps/overlays/NoCutoutOverlay/Android.mk
