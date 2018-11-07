@@ -1,2 +1,5 @@
 on init
     mount none /system/etc/manifest.xml /vendor/etc/vintf/manifest.xml bind
+    mount none /system/lib/libmicamera.ic.so /vendor/lib/libmicamera.ic.so bind
+    mount none /system/lib/hw/camera.qcom.so /vendor/lib/hw/camera.qcom.so bind
+    mount none /system/lib/hw/com.qti.chi.override.so /vendor/lib/hw/com.qti.chi.override.so bind

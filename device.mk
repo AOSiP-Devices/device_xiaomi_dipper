@@ -56,3 +56,9 @@ PRODUCT_PACKAGES += \
 # Hide
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+
+# Camera libraries (TEMP: TIL MIUI PIE STABLE)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/lib/libmicamera.ic.so:system/lib/libmicamera.ic.so \
+    $(LOCAL_PATH)/prebuilt/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    $(LOCAL_PATH)/prebuilt/lib/hw/com.qti.chi.override.so:system/lib/hw/com.qti.chi.override.so
