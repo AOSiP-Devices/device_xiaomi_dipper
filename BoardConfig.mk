@@ -9,7 +9,7 @@
 
 # Kernel clang
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 8.0.4
+TARGET_KERNEL_CLANG_VERSION := 8.0.7
 
 DEVICE_PATH := device/xiaomi/dipper
 
