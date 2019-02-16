@@ -13,7 +13,7 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 PRODUCT_NAME := aosip_dipper
 PRODUCT_DEVICE := dipper
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 8
+PRODUCT_MODEL := MI 8
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.19.0.ODGMIFA:user/release-keys"
