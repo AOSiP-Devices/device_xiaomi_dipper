@@ -25,9 +25,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from sdm845-common
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
-# Device init scripts
+# Device fstab
 PRODUCT_PACKAGES += \
-    init.target.rc
+    fstab.qcom
 
 # Input
 PRODUCT_COPY_FILES += \

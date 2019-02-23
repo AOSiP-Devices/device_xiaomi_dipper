@@ -18,6 +18,9 @@ TARGET_KERNEL_CONFIG := dipper_defconfig
 # Face Unlock
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 
@@ -29,6 +32,3 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
-
-# Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
