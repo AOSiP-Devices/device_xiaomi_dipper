@@ -9,4 +9,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.displayfeature.histogram.enable=true \
     ro.eyecare.brightness.threshold=3 \
-    ro.eyecare.brightness.level=8
+    ro.eyecare.brightness.level=8 \
+    ro.sf.lcd_density=420
