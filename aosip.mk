@@ -9,6 +9,9 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# Vendor blobs
+$(call inherit-product-if-exists, vendor/xiaomi/dipper/dipper-vendor.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosip_dipper
 PRODUCT_DEVICE := dipper
