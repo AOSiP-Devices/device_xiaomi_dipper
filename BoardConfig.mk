@@ -20,7 +20,11 @@ TARGET_HAS_HDR_DISPLAY := true
 TARGET_USES_COLOR_METADATA := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := dipper_defconfig
+TARGET_KERNEL_CONFIG := raph_dipper_defconfig
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-raphiel-linux-gnu-
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-raph-linux-android/bin
+TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
