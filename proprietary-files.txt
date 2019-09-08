@@ -105,7 +105,7 @@ vendor/lib/camera/components/com.arcsoft.node.smoothtransition.so
 vendor/lib/camera/components/com.qti.node.photosolid.so
 vendor/lib/camera/components/com.qti.node.eisv2.so
 vendor/lib/camera/components/com.arcsoft.node.realtimebokeh.so
-vendor/lib/camera/components/com.vidhance.node.eis.so
+vendor/lib/camera/components/com.vidhance.node.eis.so|059ed8ef27d9d831f34cfc6076d90867db0ec294
 vendor/lib/camera/components/com.qti.hvx.addconstant.so
 vendor/lib/camera/components/com.qti.node.memcpy.so
 vendor/lib/camera/components/com.qti.stats.aec.so
